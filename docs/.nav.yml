@@ -1,0 +1,14 @@
+# Top-level navigation order (mkdocs-awesome-nav).
+# Pages added inside a section folder appear automatically — no need to edit this file.
+nav:
+  - Home: index.md
+  - Start Here: start-here
+  - Fundamentals: fundamentals
+  - LLM Models: models
+  - Harnesses: harnesses
+  - Skills: skills
+  - MCP: mcp
+  - Connectors: connectors
+  - Automation: automation
+  - Playbooks: playbooks
+  - Resources: resources

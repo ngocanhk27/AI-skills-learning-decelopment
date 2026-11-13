@@ -1,0 +1,42 @@
+name: Topic request
+description: Propose a new topic to learn and document
+title: "[Topic] "
+labels: [topic]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Fundamentals
+        - LLM Models
+        - Harness Systems
+        - Skills
+        - MCP
+        - Connectors
+        - Automation
+        - Playbooks
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Topic title
+      placeholder: e.g. Building an MCP server
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why learn this?
+      description: What would you be able to do once you've learned it?
+  - type: dropdown
+    id: level
+    attributes:
+      label: Level
+      options: [beginner, intermediate, advanced]
+  - type: textarea
+    id: links
+    attributes:
+      label: Starting links
+      description: Official docs, articles or videos to start from.
