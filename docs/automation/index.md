@@ -20,7 +20,7 @@ Putting AI to work without a human in the loop for every step — scheduled, tri
 - Headless / programmatic use of agents
 - Guardrails, monitoring and cost control for unattended runs
 
-!!! tip "Section tip"
+!!! tip "Area tip"
     Every automation topic should state its trigger, its inputs, its outputs and how you know it worked.
 
 ??? example "Possible first topics (suggestions — delete or replace freely)"
@@ -29,7 +29,7 @@ Putting AI to work without a human in the loop for every step — scheduled, tri
     - Headless mode
     - Automation guardrails
 
-## Add a topic to this section
+## Add a topic to this area
 
 ```bash
 make new SECTION=automation SLUG=my-topic TITLE="My topic"

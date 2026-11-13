@@ -29,8 +29,19 @@ update automatically.
     Copy [`templates/topic.md`](template.md) to `docs/<area>/<slug>.md` and replace the
     `{{TITLE}}`, `{{SECTION}}` and `{{DATE}}` placeholders.
 
-Area folders: `fundamentals`, `models`, `harnesses`, `skills`, `mcp`, `connectors`, `automation`,
-`playbooks`.
+Area folders, by group:
+
+| Group | Folders |
+| --- | --- |
+| Learn | `fundamentals` · `models` · `rag` · `multimodal` |
+| Tools | `harnesses` · `skills` · `mcp` · `connectors` · `products` |
+| Build | `apis` · `evals` · `security` · `customization` |
+| Apply | `automation` · `playbooks` · `use-cases` · `labs` |
+| Stay Current | `radar` |
+
+!!! note "Adding a new area"
+    Create `docs/<folder>/index.md` (copy any area's `index.md`), add the folder to its group in
+    `docs/.nav.yml`, add a card to the home page, and note it in the [changelog](../changelog.md).
 
 !!! tip "Big topics"
     When a subject grows beyond one page (for example a specific harness), use a nested slug —
@@ -47,7 +58,7 @@ Area folders: `fundamentals`, `models`, `harnesses`, `skills`, `mcp`, `connector
 | `level` | `beginner` · `intermediate` · `advanced` | Helps readers pick the right starting point |
 | `time` | e.g. `30 min` | Rough time to learn and try it |
 | `last_reviewed` | `YYYY-MM-DD` | Drives the "recently reviewed" list and stale flags |
-| `tags` | list | Cross-area grouping on the [tags page](../tags.md) |
+| `tags` | list | Cross-area grouping on the [tags page](../tags.md). Radar notes add a ring: `adopt`, `trial`, `assess` or `hold` |
 
 A page counts as a topic **only if it has a `status` field** — section overviews and reference pages
 leave it out.

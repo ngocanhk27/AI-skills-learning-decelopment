@@ -5,8 +5,15 @@ This repo is a MkDocs (Material) knowledge base. Content is Markdown under `docs
 ## Adding or editing topics
 
 - Create topics with `python3 scripts/new_topic.py <area> <slug> "<Title>"` — never hand-build
-  front matter from scratch. Areas: fundamentals, models, harnesses, skills, mcp, connectors,
-  automation, playbooks.
+  front matter from scratch. Area folders by group:
+  - Learn: fundamentals, models, rag, multimodal
+  - Tools: harnesses, skills, mcp, connectors, products
+  - Build: apis, evals, security, customization
+  - Apply: automation, playbooks, use-cases, labs
+  - Stay Current: radar
+- Radar notes are short and dated, tagged with one ring: adopt, trial, assess or hold.
+- A new *area* needs: `docs/<folder>/index.md`, an entry in `docs/.nav.yml`, a card in
+  `docs/index.md`, and a line in `docs/resources/changelog.md`.
 - A page is a *topic* only if its front matter has `status`. Section `index.md` pages must not.
 - Keep the template's section order: TL;DR, Why it matters, Core concepts, Hands-on, Practical
   applications, Pitfalls & gotchas, Checklist, Resources, Changelog.

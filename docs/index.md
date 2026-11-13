@@ -20,13 +20,17 @@ the harnesses, skills, protocols and automations used in real work.
 
 ## Explore by area
 
+### :material-book-open-variant: Learn
+
+<p class="group-blurb">Understand how AI works and what it can do.</p>
+
 <div class="grid cards" markdown>
 
 -   :material-school-outline:{ .lg .middle } **[AI Fundamentals](fundamentals/index.md)**
 
     ---
 
-    How LLMs work, prompting, context engineering, agents, evaluation and safety.
+    How LLMs work, prompting, context engineering and agent concepts.
 
     <span class="count"><!-- topic-count:fundamentals --></span>
 
@@ -34,15 +38,39 @@ the harnesses, skills, protocols and automations used in real work.
 
     ---
 
-    Model families, capabilities, pricing and limits — and how to pick the right one.
+    Model families, capabilities, pricing and limits — and how to pick one.
 
     <span class="count"><!-- topic-count:models --></span>
+
+-   :material-database-search-outline:{ .lg .middle } **[RAG & Knowledge](rag/index.md)**
+
+    ---
+
+    Embeddings, retrieval, knowledge bases and memory.
+
+    <span class="count"><!-- topic-count:rag --></span>
+
+-   :material-image-multiple-outline:{ .lg .middle } **[Multimodal](multimodal/index.md)**
+
+    ---
+
+    Images, documents, voice, video and computer use.
+
+    <span class="count"><!-- topic-count:multimodal --></span>
+
+</div>
+
+### :material-toolbox-outline: Tools
+
+<p class="group-blurb">The tools and integrations you work with every day.</p>
+
+<div class="grid cards" markdown>
 
 -   :material-robot-industrial-outline:{ .lg .middle } **[Harness Systems](harnesses/index.md)**
 
     ---
 
-    Agent runtimes: coding agents, IDE assistants, agent SDKs and hosted platforms.
+    Coding agents, IDE assistants and hosted agent platforms.
 
     <span class="count"><!-- topic-count:harnesses --></span>
 
@@ -50,7 +78,7 @@ the harnesses, skills, protocols and automations used in real work.
 
     ---
 
-    Reusable, packaged know-how that teaches an agent to do a specific job well.
+    Packaged know-how that teaches an agent a specific job.
 
     <span class="count"><!-- topic-count:skills --></span>
 
@@ -58,7 +86,7 @@ the harnesses, skills, protocols and automations used in real work.
 
     ---
 
-    The Model Context Protocol — connecting AI apps to tools, data and prompts.
+    The Model Context Protocol — connecting AI to tools and data.
 
     <span class="count"><!-- topic-count:mcp --></span>
 
@@ -66,15 +94,71 @@ the harnesses, skills, protocols and automations used in real work.
 
     ---
 
-    Ready-made integrations with the services you already use: docs, code, data.
+    Ready-made integrations with docs, code and data services.
 
     <span class="count"><!-- topic-count:connectors --></span>
+
+-   :material-apps:{ .lg .middle } **[AI Products & Apps](products/index.md)**
+
+    ---
+
+    End-user AI apps — what each is good at and when to use it.
+
+    <span class="count"><!-- topic-count:products --></span>
+
+</div>
+
+### :material-hammer-wrench: Build
+
+<p class="group-blurb">Build, test and secure your own AI systems.</p>
+
+<div class="grid cards" markdown>
+
+-   :material-code-braces:{ .lg .middle } **[Building with LLM APIs](apis/index.md)**
+
+    ---
+
+    API calls, tool use, structured output, caching and custom agents.
+
+    <span class="count"><!-- topic-count:apis --></span>
+
+-   :material-chart-box-outline:{ .lg .middle } **[Evaluation & Observability](evals/index.md)**
+
+    ---
+
+    Evals, LLM-as-judge, tracing and production monitoring.
+
+    <span class="count"><!-- topic-count:evals --></span>
+
+-   :material-shield-lock-outline:{ .lg .middle } **[Security & Governance](security/index.md)**
+
+    ---
+
+    Prompt injection, permissions, privacy, policy and compliance.
+
+    <span class="count"><!-- topic-count:security --></span>
+
+-   :material-tune-variant:{ .lg .middle } **[Customization](customization/index.md)**
+
+    ---
+
+    Fine-tuning, distillation and running open-weight models.
+
+    <span class="count"><!-- topic-count:customization --></span>
+
+</div>
+
+### :material-rocket-launch-outline: Apply
+
+<p class="group-blurb">Put AI to work on real tasks.</p>
+
+<div class="grid cards" markdown>
 
 -   :material-cog-sync-outline:{ .lg .middle } **[Automation](automation/index.md)**
 
     ---
 
-    Scheduled, triggered and pipelined AI — CI/CD, workflows and headless agents.
+    Scheduled, triggered and CI-driven AI.
 
     <span class="count"><!-- topic-count:automation --></span>
 
@@ -82,9 +166,47 @@ the harnesses, skills, protocols and automations used in real work.
 
     ---
 
-    End-to-end recipes that combine everything above to get real work done.
+    End-to-end recipes that get real work done.
 
     <span class="count"><!-- topic-count:playbooks --></span>
+
+-   :material-account-group-outline:{ .lg .middle } **[Use Cases by Role](use-cases/index.md)**
+
+    ---
+
+    How AI helps engineers, researchers, analysts, managers and more.
+
+    <span class="count"><!-- topic-count:use-cases --></span>
+
+-   :material-flask-outline:{ .lg .middle } **[Labs](labs/index.md)**
+
+    ---
+
+    Exercises and mini-projects with a self-check.
+
+    <span class="count"><!-- topic-count:labs --></span>
+
+</div>
+
+### :material-radar: Stay Current
+
+<p class="group-blurb">Keep up as the field moves.</p>
+
+<div class="grid cards" markdown>
+
+-   :material-radar:{ .lg .middle } **[AI Radar](radar/index.md)**
+
+    ---
+
+    Dated notes on new releases and trends: adopt · trial · assess · hold.
+
+    <span class="count"><!-- topic-count:radar --></span>
+
+-   :material-bookshelf:{ .lg .middle } **[Resources](resources/index.md)**
+
+    ---
+
+    Catalog, tags, glossary, contributing guide and changelog.
 
 </div>
 

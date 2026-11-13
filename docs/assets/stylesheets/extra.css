@@ -55,3 +55,9 @@
 .md-typeset .grid.two > .admonition {
   margin: 0;
 }
+
+/* ---- Landing page group headings ---- */
+.md-typeset h3 + .group-blurb {
+  margin-top: -0.4rem;
+  color: var(--md-default-fg-color--light);
+}

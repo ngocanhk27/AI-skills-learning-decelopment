@@ -7,16 +7,28 @@ skills, MCP, connectors and automation — published as a searchable website.
 
 ## Areas
 
-| Area | Folder | What goes there |
-| --- | --- | --- |
-| Fundamentals | [`docs/fundamentals`](docs/fundamentals/index.md) | How LLMs work, prompting, context engineering, agents, evaluation, safety |
-| LLM Models | [`docs/models`](docs/models/index.md) | Model families, capabilities, pricing, limits, selection |
-| Harness Systems | [`docs/harnesses`](docs/harnesses/index.md) | Agent runtimes: coding agents, IDE assistants, agent SDKs |
-| Skills | [`docs/skills`](docs/skills/index.md) | Packaged, reusable agent know-how |
-| MCP | [`docs/mcp`](docs/mcp/index.md) | Model Context Protocol: using, building and securing servers |
-| Connectors | [`docs/connectors`](docs/connectors/index.md) | Ready-made integrations with docs, code and data services |
-| Automation | [`docs/automation`](docs/automation/index.md) | Scheduled, triggered and CI-driven AI |
-| Playbooks | [`docs/playbooks`](docs/playbooks/index.md) | End-to-end recipes combining all of the above |
+18 areas in five groups (one tab per group on the site):
+
+| Group | Area | Folder | What goes there |
+| --- | --- | --- | --- |
+| **Learn** | Fundamentals | [`docs/fundamentals`](docs/fundamentals/index.md) | How LLMs work, prompting, context engineering, agent concepts |
+| | LLM Models | [`docs/models`](docs/models/index.md) | Model families, capabilities, pricing, limits, selection |
+| | RAG & Knowledge | [`docs/rag`](docs/rag/index.md) | Embeddings, retrieval, knowledge bases, memory |
+| | Multimodal | [`docs/multimodal`](docs/multimodal/index.md) | Vision, documents, voice, image/video generation, computer use |
+| **Tools** | Harness Systems | [`docs/harnesses`](docs/harnesses/index.md) | Coding agents, IDE assistants, hosted agent platforms |
+| | Skills | [`docs/skills`](docs/skills/index.md) | Packaged, reusable agent know-how |
+| | MCP | [`docs/mcp`](docs/mcp/index.md) | Model Context Protocol: using, building and securing servers |
+| | Connectors | [`docs/connectors`](docs/connectors/index.md) | Ready-made integrations with docs, code and data services |
+| | AI Products & Apps | [`docs/products`](docs/products/index.md) | End-user AI apps and when to use each |
+| **Build** | Building with LLM APIs | [`docs/apis`](docs/apis/index.md) | API calls, tool use, structured output, caching, custom agents |
+| | Evaluation & Observability | [`docs/evals`](docs/evals/index.md) | Evals, LLM-as-judge, tracing, monitoring |
+| | Security & Governance | [`docs/security`](docs/security/index.md) | Prompt injection, permissions, privacy, policy |
+| | Customization | [`docs/customization`](docs/customization/index.md) | Fine-tuning, distillation, open-weight and local models |
+| **Apply** | Automation | [`docs/automation`](docs/automation/index.md) | Scheduled, triggered and CI-driven AI |
+| | Playbooks | [`docs/playbooks`](docs/playbooks/index.md) | End-to-end recipes combining the areas |
+| | Use Cases by Role | [`docs/use-cases`](docs/use-cases/index.md) | AI for specific jobs, linking to playbooks |
+| | Labs | [`docs/labs`](docs/labs/index.md) | Exercises and mini-projects with a self-check |
+| **Stay Current** | AI Radar | [`docs/radar`](docs/radar/index.md) | Dated release/trend notes: adopt · trial · assess · hold |
 
 Cross-cutting pages live in [`docs/start-here`](docs/start-here/index.md) (orientation, learning paths)
 and [`docs/resources`](docs/resources/index.md) (catalog, tags, glossary, contributing guide, changelog).
@@ -71,7 +83,7 @@ and set **Source** to **GitHub Actions**.
 ├── docs/                 # all site content (Markdown)
 │   ├── index.md          # landing page
 │   ├── start-here/       # orientation & learning paths
-│   ├── fundamentals/ … playbooks/   # the eight learning areas
+│   ├── fundamentals/ … radar/   # the 18 learning areas (grouped in docs/.nav.yml)
 │   ├── resources/        # catalog, tags, glossary, contribute guide, changelog
 │   └── assets/           # CSS, favicon
 ├── templates/topic.md    # template for every new topic

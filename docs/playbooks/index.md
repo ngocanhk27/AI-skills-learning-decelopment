@@ -1,12 +1,12 @@
 ---
 title: Playbooks
-description: End-to-end recipes that combine models, harnesses, skills, MCP, connectors and automation to get real work done.
+description: End-to-end recipes that combine models, tools and automation to get real work done.
 icon: material/rocket-launch-outline
 ---
 
 # Playbooks
 
-End-to-end recipes that combine models, harnesses, skills, MCP, connectors and automation to get real work done.
+End-to-end recipes that combine models, tools and automation to get real work done.
 
 ## Topics
 
@@ -18,7 +18,7 @@ End-to-end recipes that combine models, harnesses, skills, MCP, connectors and a
 - Reusable workflows you run regularly
 - Case studies and retrospectives of what worked (and what didn't)
 
-!!! tip "Section tip"
+!!! tip "Area tip"
     Playbooks are where learning turns into practice. Link back to the topic pages each step relies on.
 
 ??? example "Possible first topics (suggestions — delete or replace freely)"
@@ -26,7 +26,7 @@ End-to-end recipes that combine models, harnesses, skills, MCP, connectors and a
     - Automated PR review
     - Personal knowledge-base assistant
 
-## Add a topic to this section
+## Add a topic to this area
 
 ```bash
 make new SECTION=playbooks SLUG=my-topic TITLE="My topic"

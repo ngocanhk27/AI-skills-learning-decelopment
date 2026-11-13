@@ -1,14 +1,29 @@
-# Top-level navigation order (mkdocs-awesome-nav).
-# Pages added inside a section folder appear automatically — no need to edit this file.
+# Navigation (mkdocs-awesome-nav). Tabs are groups; each group holds area folders.
+# Pages added inside an area folder appear automatically — only edit this file to add an AREA.
 nav:
   - Home: index.md
   - Start Here: start-here
-  - Fundamentals: fundamentals
-  - LLM Models: models
-  - Harnesses: harnesses
-  - Skills: skills
-  - MCP: mcp
-  - Connectors: connectors
-  - Automation: automation
-  - Playbooks: playbooks
-  - Resources: resources
+  - Learn:
+      - Fundamentals: fundamentals
+      - LLM Models: models
+      - RAG & Knowledge: rag
+      - Multimodal: multimodal
+  - Tools:
+      - Harness Systems: harnesses
+      - Skills: skills
+      - MCP: mcp
+      - Connectors: connectors
+      - AI Products & Apps: products
+  - Build:
+      - Building with LLM APIs: apis
+      - Evaluation & Observability: evals
+      - Security & Governance: security
+      - Customization: customization
+  - Apply:
+      - Automation: automation
+      - Playbooks: playbooks
+      - Use Cases by Role: use-cases
+      - Labs: labs
+  - Stay Current:
+      - AI Radar: radar
+      - Resources: resources

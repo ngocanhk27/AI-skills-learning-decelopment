@@ -8,14 +8,24 @@ body:
     attributes:
       label: Area
       options:
-        - Fundamentals
-        - LLM Models
-        - Harness Systems
-        - Skills
-        - MCP
-        - Connectors
-        - Automation
-        - Playbooks
+        - "Learn: Fundamentals"
+        - "Learn: LLM Models"
+        - "Learn: RAG & Knowledge"
+        - "Learn: Multimodal"
+        - "Tools: Harness Systems"
+        - "Tools: Skills"
+        - "Tools: MCP"
+        - "Tools: Connectors"
+        - "Tools: AI Products & Apps"
+        - "Build: Building with LLM APIs"
+        - "Build: Evaluation & Observability"
+        - "Build: Security & Governance"
+        - "Build: Customization"
+        - "Apply: Automation"
+        - "Apply: Playbooks"
+        - "Apply: Use Cases by Role"
+        - "Apply: Labs"
+        - "Stay Current: AI Radar"
     validations:
       required: true
   - type: input

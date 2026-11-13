@@ -1,12 +1,12 @@
 ---
 title: AI Fundamentals
-description: The concepts everything else builds on — how LLMs work, how to talk to them, and how to judge their output.
+description: The concepts everything else builds on — how LLMs work, how to talk to them, and how agents think.
 icon: material/school-outline
 ---
 
 # AI Fundamentals
 
-The concepts everything else builds on — how LLMs work, how to talk to them, and how to judge their output.
+The concepts everything else builds on — how LLMs work, how to talk to them, and how agents think.
 
 ## Topics
 
@@ -16,21 +16,20 @@ The concepts everything else builds on — how LLMs work, how to talk to them, a
 
 - How language models work (tokens, context windows, sampling)
 - Prompting and context engineering
-- Retrieval-augmented generation (RAG) and embeddings
-- Tool use, agents and agent loops
-- Evaluation, testing and quality measurement
-- Safety, privacy and responsible use
+- Tool use, agents and agent loops — the concepts
+- Reasoning, hallucination and the limits of LLMs
+- Overviews that point to the deep-dive areas (RAG, evaluation, security)
 
-!!! tip "Section tip"
-    Read a fundamentals topic before diving into the tool-specific sections — the vocabulary carries over everywhere.
+!!! tip "Area tip"
+    Read a fundamentals topic before diving into the tool-specific areas — the vocabulary carries over everywhere.
 
 ??? example "Possible first topics (suggestions — delete or replace freely)"
     - Prompt engineering fundamentals
     - Context engineering
     - How agents work
-    - Evaluating LLM output
+    - Why models hallucinate
 
-## Add a topic to this section
+## Add a topic to this area
 
 ```bash
 make new SECTION=fundamentals SLUG=my-topic TITLE="My topic"

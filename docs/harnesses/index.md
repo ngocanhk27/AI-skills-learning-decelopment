@@ -1,12 +1,12 @@
 ---
 title: Harness Systems
-description: The runtimes that wrap a model into an agent — CLIs, IDE agents, SDKs and hosted agent platforms.
+description: Ready-made runtimes that wrap a model into an agent — coding agents, IDE assistants and hosted agent platforms.
 icon: material/robot-industrial-outline
 ---
 
 # Harness Systems
 
-The runtimes that wrap a model into an agent — CLIs, IDE agents, SDKs and hosted agent platforms.
+Ready-made runtimes that wrap a model into an agent — coding agents, IDE assistants and hosted agent platforms.
 
 ## Topics
 
@@ -15,21 +15,21 @@ The runtimes that wrap a model into an agent — CLIs, IDE agents, SDKs and host
 ## What belongs here
 
 - Agentic coding tools (CLI, desktop, web and IDE)
-- Agent SDKs and frameworks for building your own agents
 - Configuration: memory files, settings, permissions, hooks
-- Sub-agents, multi-agent orchestration and workflows
+- Sub-agents, multi-agent orchestration and workflows inside a harness
 - Cloud / remote execution environments
+- Comparing harnesses and choosing one
 
-!!! tip "Section tip"
-    Large harnesses can get their own sub-folder (e.g. `harnesses/claude-code/`) with one page per feature.
+!!! tip "Area tip"
+    Large harnesses can get their own sub-folder (e.g. `harnesses/claude-code/`) with one page per feature. Building your *own* agent belongs in [Building with LLM APIs](../apis/index.md).
 
 ??? example "Possible first topics (suggestions — delete or replace freely)"
     - Claude Code overview
-    - Agent SDK basics
     - Project memory files (CLAUDE.md)
     - Hooks and permissions
+    - Sub-agents
 
-## Add a topic to this section
+## Add a topic to this area
 
 ```bash
 make new SECTION=harnesses SLUG=my-topic TITLE="My topic"

@@ -20,8 +20,8 @@ Packaged, reusable instructions and resources that teach an agent how to do a sp
 - Testing, evaluating and iterating on skills
 - Sharing skills through plugins and marketplaces
 
-!!! tip "Section tip"
-    Store skills you build alongside their notes here, and link to the real skill source in the Hands-on section.
+!!! tip "Area tip"
+    Store notes on skills you build here, and link to the real skill source in the Hands-on section.
 
 ??? example "Possible first topics (suggestions — delete or replace freely)"
     - Skill anatomy
@@ -29,7 +29,7 @@ Packaged, reusable instructions and resources that teach an agent how to do a sp
     - Skill evaluation
     - Skills vs. MCP vs. prompts
 
-## Add a topic to this section
+## Add a topic to this area
 
 ```bash
 make new SECTION=skills SLUG=my-topic TITLE="My topic"

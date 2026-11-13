@@ -17,10 +17,10 @@ Ready-made integrations that plug AI assistants into the services you already us
 - Productivity connectors (docs, drive, calendar, email)
 - Developer connectors (GitHub, issue trackers, CI)
 - Data connectors (warehouses, analytics, BI)
-- Authentication, scopes and data-access governance
+- Authentication, scopes and data access
 - Connectors vs. custom MCP servers — when to build your own
 
-!!! tip "Section tip"
+!!! tip "Area tip"
     Record which account or workspace each connector was tested with and what permissions it needed.
 
 ??? example "Possible first topics (suggestions — delete or replace freely)"
@@ -29,7 +29,7 @@ Ready-made integrations that plug AI assistants into the services you already us
     - Google Workspace connectors
     - Connector permissions
 
-## Add a topic to this section
+## Add a topic to this area
 
 ```bash
 make new SECTION=connectors SLUG=my-topic TITLE="My topic"
