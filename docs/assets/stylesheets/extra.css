@@ -1,0 +1,63 @@
+/* ---- Landing page hero ---- */
+.hero {
+  padding: 2.5rem 1.5rem 2rem;
+  margin: 0 0 1.5rem;
+  border-radius: 0.8rem;
+  text-align: center;
+  background: linear-gradient(135deg,
+    color-mix(in srgb, var(--md-primary-fg-color) 14%, transparent),
+    color-mix(in srgb, var(--md-accent-fg-color) 10%, transparent));
+}
+.hero h1 {
+  margin-bottom: 0.6rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+}
+.hero p {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.85rem;
+}
+.hero .md-button {
+  margin: 0.3rem;
+}
+
+/* ---- Area cards ---- */
+.md-typeset .grid.cards > ul > li {
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.md-typeset .grid.cards .count {
+  display: inline-block;
+  font-size: 0.65rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+  color: var(--md-default-fg-color--light);
+  background: var(--md-default-fg-color--lightest);
+}
+
+/* ---- Topic metadata line under the H1 ---- */
+.md-typeset .topic-meta {
+  margin-top: -0.6rem;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* ---- Tables: let the summary column breathe ---- */
+.md-typeset table:not([class]) td:nth-child(2) {
+  min-width: 14rem;
+}
+
+/* ---- Two-column grid (landing page "How this hub works") ---- */
+.md-typeset .grid.two {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
+}
+.md-typeset .grid.two > .admonition {
+  margin: 0;
+}
+
+/* ---- Landing page group headings ---- */
+.md-typeset h3 + .group-blurb {
+  margin-top: -0.4rem;
+  color: var(--md-default-fg-color--light);
+}

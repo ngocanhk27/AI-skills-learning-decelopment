@@ -1,0 +1,104 @@
+site_name: AI Learning Hub
+site_description: A living knowledge base for learning and applying AI — from fundamentals and models to agent tools, building, automation and keeping current.
+site_url: https://ngocanhk27.github.io/AI-skills-learning-decelopment/
+repo_url: https://github.com/ngocanhk27/AI-skills-learning-decelopment
+repo_name: AI-skills-learning-decelopment
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  icon:
+    logo: material/brain
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+    - content.action.view
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+hooks:
+  - hooks/topic_index.py
+
+plugins:
+  - search
+  - tags
+  - awesome-nav
+  - git-revision-date-localized:
+      enabled: !ENV [CI, false]   # only in CI, where full git history is available
+      type: date
+      fallback_to_build_date: true
+      enable_creation_date: false
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets:
+      base_path: ["."]
+      check_paths: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ngocanhk27/AI-skills-learning-decelopment
+
+validation:
+  links:
+    not_found: warn
+    anchors: warn
